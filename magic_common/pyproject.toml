@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magic_common"
+description = "Common library for Magic"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["private", ]
+dependencies = [
+    "boto3"
+]
+dynamic = ["version"]
